@@ -1,0 +1,92 @@
+body {
+  background-image: 
+ url("http://res.cloudinary.com/dk4vuo0ku/image/upload/v1532373268/DevilLakeCascade3_714-037_kuhdmp.jpg");  
+  background-repeat: no-repeat;  
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title {  
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 26px; 
+}  
+
+h2 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px; 
+  line-height: 10%;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis { 
+  font: 12px sans-serif; 
+}
+
+.label {
+  font: 14px sans-serif; 
+}
+
+#x-axis, #y-axis {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+#legend {
+  fill: #ddd;
+  font-size: 14px;
+}
+
+.dot{
+  stroke: #fff;
+  opacity: 0.8;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  background: steelblue;
+  pointer-events: none;
+  color: black;
+  font: 12px sans-serif;
+  height: 100px;
+  width:  200px;
+  border-radius: 5px;
+  padding: 10px 2px 2px 2px; 
+}
+
+svg text.label {
+  fill:white;
+  font: 15px;  
+  font-weight: 400;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+a:link, a:visited {
+    color: darkred;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    padding: 4px 8px;
+}
+
+
